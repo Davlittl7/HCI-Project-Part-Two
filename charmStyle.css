@@ -1,8 +1,34 @@
+
 body {
-  background-color: lightblue;
+  background-color: #CBC3E3;
 }
 
 h1 {
-  color: navy;
+  color: grey;
   margin-left: 20px;
 }
+
+.btn-group button {
+  background-color: White; /* White background */
+  border: 1px solid black; /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent issue of double borders */
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Adds the background color on hover */
+.btn-group button:hover {
+  background-color: gray;
+}
+
