@@ -2,9 +2,12 @@
 body {
   background-color: #CBC3E3;
 }
+p {
+	color: grey;
+}
 
 h1 {
-  color: grey;
+  color: black;
   margin-left: 20px;
 }
 
@@ -21,14 +24,19 @@ h1 {
   border-right: none; /* Prevent issue of double borders */
 }
 
+
 .btn-group:after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* Adds the background color on hover */
 .btn-group button:hover {
   background-color: gray;
 }
+
+.checked {
+  color: orange;
+}
+
 
