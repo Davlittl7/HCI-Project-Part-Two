@@ -28,16 +28,16 @@ h1 {
 }
 
 .btn-group button {
-  background-color: White; /* White background */
-  border: 1px solid black; /* Black border */
-  color: black; /* White text */
+  background-color: White; 
+  border: 1px solid black; 
+  color: black; 
   padding: 10px 24px; 
   cursor: pointer; 
-  float: left; /* Float the buttons side by side */
+  float: left; 
 }
 
 .btn-group button:not(:last-child) {
-  border-right: none; /* Prevent issue of double borders */
+  border-right: none; 
 }
 
 
