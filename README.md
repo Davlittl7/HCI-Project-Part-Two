@@ -1,7 +1,7 @@
 # HCI-Project-Part-Two
 
 ## Methods of Running this project
-There are two methods of running this project and they are the following (both look slightly different but overall design and implementation is the same).
+There are two methods of running this project and they are the following (both look slightly different but the overall design and implementation are the same).
 
 ### First Method
 1. Download zip file
