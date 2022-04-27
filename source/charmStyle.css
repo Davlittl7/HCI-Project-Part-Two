@@ -1,3 +1,4 @@
+/*Gradient of pink and blue for website*/
 body {
 	background: linear-gradient(-45deg, #6a0dad, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -27,6 +28,7 @@ h1 {
   margin-left: 20px;
 }
 
+/*CSS for button bar */
 .btn-group button {
   background-color: White; 
   border: 1px solid black; 
@@ -51,6 +53,7 @@ h1 {
   background-color: gray;
 }
 
+/*CSS for review stars */
 .checked {
   color: orange;
 }
